@@ -1,0 +1,39 @@
+
+.button__primary {
+	background-color:$white;
+	border:1px solid $black;
+	color:$quick;
+	font-family:$pt-mono;
+	font-size:$medium;
+	padding:10px 19px;
+	margin-right: 25px;
+
+
+	&:hover {
+		background-color:$white;
+		border:1px solid $black;
+		color:$black;
+		font-family:$pt-mono;
+	}
+
+}
+
+
+
+.button__secundary {
+	background-color:$shiny;
+	border:1px solid $shiny;
+	color:$white;
+	font-family:$pt-mono;
+	font-size:$medium;
+	padding:10px 19px;
+	margin-right: 48px;
+
+	&:hover {
+		background-color:$turquoise;
+		border:1px solid $turquoise;
+		color:$quick;
+	}
+
+}
+

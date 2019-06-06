@@ -1,0 +1,40 @@
+body {
+	background:$white;
+	font-size:$medium;
+	font-weigth:$light;
+	font-family:$roboto;
+}
+
+
+a {
+	color:$quick;
+	font-family:$pt-mono;
+	font-size:$medium;
+	margin-left: 42px;
+	text-decoration: none;
+
+	&:hover {
+		color:$black;
+		text-decoration: none;
+	}
+}
+
+li {
+	float:left;
+	margin-top:20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ul__horizontal {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+    
