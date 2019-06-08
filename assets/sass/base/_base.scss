@@ -21,7 +21,7 @@ a {
 
 li {
 	float:left;
-	margin-top:20px;
+	margin-top:200px;
 }
 
 ul {
@@ -35,6 +35,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    margin-top: 20px;
+}
 
+li a {
+	font-family:$pt-mono;
+	margin-left:45px;
 }
     

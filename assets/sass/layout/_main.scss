@@ -1,5 +1,50 @@
 .main__img {
 	width:70%;
 	background-image: url("../images/img-1.png");
-	height: 700px;
+	background-repeat: no-repeat;
+	height:375px;
+}
+
+.main__cafe {
+	padding-top: 31px;
+	padding-left: 140px;
+
+}
+
+.main__datos {
+	background: #fff;
+	width: 480px;
+	height: 157px;
+	position: absolute;
+	left: 338px;
+	top: 220px;
+}
+
+.main__textos {
+	float:left;
+	box-sizing: border-box;
+	margin-top: 46px;
+	padding-left: 41px;
+}
+
+.main__cuadrado {
+	width:120px; 
+	height:120px; 
+	background:$buff;
+	position: absolute;
+	top: 255px;
+	right: 443px;
+
+}
+
+.main__cuadrado2 {
+	width: 120px;
+    height: 120px;
+    background: #fa824c;
+    position: absolute;
+    top: 200px;
+    right: 460px;
+    z-index: 2;
+    padding-top: 33px;
+    padding-left: 44px;
 }

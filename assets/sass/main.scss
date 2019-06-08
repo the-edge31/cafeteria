@@ -1,18 +1,20 @@
 @import
-'abstracts/mixins',
-'abstracts/variables';
+  'vendors/bootstrap4/bootstrap.scss';
 
 @import
-'base/reset',
-'base/base',
-'base/typografy';
+  'abstracts/mixins',
+  'abstracts/variables';
 
 @import
-'layout/header',
-'layout/main',
-'layout/section',
-'layout/article';
+  'base/base',
+  'base/reset',
+  'base/typografy';
 
 @import
-'components/buttons';
+  'layout/header',
+  'layout/main',
+  'layout/section',
+  'layout/article';
 
+@import
+  'components/buttons';
